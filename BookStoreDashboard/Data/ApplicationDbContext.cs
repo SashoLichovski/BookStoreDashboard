@@ -12,5 +12,7 @@ namespace BookStoreDashboard.Data
             : base(options)
         {
         }
+
+
     }
 }

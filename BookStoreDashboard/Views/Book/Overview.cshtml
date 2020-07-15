@@ -1,0 +1,53 @@
+﻿@model List<BookStoreDashboard.Models.Book.BookDto>
+@section Styles{
+    <link rel="stylesheet" href="~/css/table.css" />
+}
+
+<div class="container">
+    <br />
+    <h3>Book overview</h3>
+    <br />
+
+    <table class="defaultTable table table-hover">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Price</th>
+                <th>In stock</th>
+                <th style="text-align: center;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Model)
+            {
+                <tr>
+                    <td>@book.Title</td>
+                    <td>@book.Author</td>
+                    <td>@book.Genre</td>
+                    <td>@book.Price</td>
+                    <td>@book.Quantity</td>
+                    <td style="text-align: center;">
+                        <a class="btn btn-primary btn-sm">Edit</a> |
+                        <a class="btn btn-danger btn-sm">Delete</a> |
+                        <a class="btn btn-info btn-sm" id="@book.Id" onclick="Toggle(event)">Details</a>
+                    </td>
+                </tr>
+
+                <tr id="book-@book.Id" class="hide description">
+                    <td colspan="6">
+                        <b>Description:</b> <br />
+                        @book.Description
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section Scripts{ 
+    <script src="~/js/table.js"></script>
+}
+
+

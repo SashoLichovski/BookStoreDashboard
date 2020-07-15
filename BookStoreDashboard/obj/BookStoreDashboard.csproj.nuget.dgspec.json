@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sasho\\Desktop\\MVC\\BookStoreDashboard\\BookStoreDashboard\\BookStoreDashboard\\BookStoreDashboard.csproj": {}
+    "C:\\Users\\Sasho\\Desktop\\MVC\\BookStoreAdminDashboard\\BookStoreDashboard\\BookStoreDashboard\\BookStoreDashboard.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sasho\\Desktop\\MVC\\BookStoreDashboard\\BookStoreDashboard\\BookStoreDashboard\\BookStoreDashboard.csproj": {
+    "C:\\Users\\Sasho\\Desktop\\MVC\\BookStoreAdminDashboard\\BookStoreDashboard\\BookStoreDashboard\\BookStoreDashboard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sasho\\Desktop\\MVC\\BookStoreDashboard\\BookStoreDashboard\\BookStoreDashboard\\BookStoreDashboard.csproj",
+        "projectUniqueName": "C:\\Users\\Sasho\\Desktop\\MVC\\BookStoreAdminDashboard\\BookStoreDashboard\\BookStoreDashboard\\BookStoreDashboard.csproj",
         "projectName": "BookStoreDashboard",
-        "projectPath": "C:\\Users\\Sasho\\Desktop\\MVC\\BookStoreDashboard\\BookStoreDashboard\\BookStoreDashboard\\BookStoreDashboard.csproj",
+        "projectPath": "C:\\Users\\Sasho\\Desktop\\MVC\\BookStoreAdminDashboard\\BookStoreDashboard\\BookStoreDashboard\\BookStoreDashboard.csproj",
         "packagesPath": "C:\\Users\\Sasho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sasho\\Desktop\\MVC\\BookStoreDashboard\\BookStoreDashboard\\BookStoreDashboard\\obj\\",
+        "outputPath": "C:\\Users\\Sasho\\Desktop\\MVC\\BookStoreAdminDashboard\\BookStoreDashboard\\BookStoreDashboard\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasho\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,6 +57,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[3.1.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.3, )"
             }
           },
           "imports": [
