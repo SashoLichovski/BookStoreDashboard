@@ -17,10 +17,31 @@ namespace BookStoreDashboard.Services
             this.bookRepo = bookRepo;
         }
 
-        
+        public void Create(BookDto book)
+        {
+            bookRepo.Create(book);
+        }
+
+        public async Task Delete(int bookId)
+        {
+            var book = await bookRepo.GetById(bookId);
+            book.IsDeleted = true;
+            await bookRepo.Update(book);
+        }
+
         public Task<List<BookDto>> GetAll()
         {
             return bookRepo.GetAll();
+        }
+
+        public Task<BookDto> GetById(int bookId)
+        {
+            return bookRepo.GetById(bookId);
+        }
+
+        public Task<string> Update(BookDto book)
+        {
+            return bookRepo.Update(book);
         }
     }
 }

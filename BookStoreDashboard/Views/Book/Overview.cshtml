@@ -7,6 +7,9 @@
     <br />
     <h3>Book overview</h3>
     <br />
+    <a class="btn btn-success" asp-action="Create">Create new book</a>
+    <br />
+    <br />
 
     <table class="defaultTable table table-hover">
         <thead>
@@ -29,9 +32,9 @@
                     <td>@book.Price</td>
                     <td>@book.Quantity</td>
                     <td style="text-align: center;">
-                        <a class="btn btn-primary btn-sm">Edit</a> |
-                        <a class="btn btn-danger btn-sm">Delete</a> |
-                        <a class="btn btn-info btn-sm" id="@book.Id" onclick="Toggle(event)">Details</a>
+                        <a class="btn btn-primary btn-sm" asp-action="Edit" asp-route-bookId="@book.Id">Edit</a> |
+                        <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-bookId="@book.Id" onclick="return Alert(`Are you sure you want to delete this book`)">Delete</a> |
+                        <button class="btn btn-info btn-sm" id="@book.Id" onclick="Toggle(event)">Details</button>
                     </td>
                 </tr>
 

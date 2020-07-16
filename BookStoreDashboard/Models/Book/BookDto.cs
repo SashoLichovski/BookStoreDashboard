@@ -21,5 +21,6 @@ namespace BookStoreDashboard.Models.Book
         public int Quantity { get; set; }
         [Required]
         public double Price { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }

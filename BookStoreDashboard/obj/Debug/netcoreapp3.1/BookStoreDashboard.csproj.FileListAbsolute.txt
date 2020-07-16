@@ -241,7 +241,12 @@ C:\Users\Sasho\Desktop\MVC\BookStoreAdminDashboard\BookStoreDashboard\BookStoreD
 C:\Users\Sasho\Desktop\MVC\BookStoreAdminDashboard\BookStoreDashboard\BookStoreDashboard\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Sasho\Desktop\MVC\BookStoreAdminDashboard\BookStoreDashboard\BookStoreDashboard\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Sasho\Desktop\MVC\BookStoreAdminDashboard\BookStoreDashboard\BookStoreDashboard\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sasho\Desktop\MVC\BookStoreAdminDashboard\BookStoreDashboard\BookStoreDashboard\obj\Debug\netcoreapp3.1\Razor\Views\Book\Overview.cshtml.g.cs
+C:\Users\Sasho\Desktop\MVC\BookStoreAdminDashboard\BookStoreDashboard\BookStoreDashboard\obj\Debug\netcoreapp3.1\Razor\Views\Book\Edit.cshtml.g.cs
+C:\Users\Sasho\Desktop\MVC\BookStoreAdminDashboard\BookStoreDashboard\BookStoreDashboard\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\Sasho\Desktop\MVC\BookStoreAdminDashboard\BookStoreDashboard\BookStoreDashboard\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\Sasho\Desktop\MVC\BookStoreAdminDashboard\BookStoreDashboard\BookStoreDashboard\obj\Debug\netcoreapp3.1\BookStoreDashboard.csproj.CoreCompileInputs.cache
 C:\Users\Sasho\Desktop\MVC\BookStoreAdminDashboard\BookStoreDashboard\BookStoreDashboard\obj\Debug\netcoreapp3.1\BookStoreDashboard.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Sasho\Desktop\MVC\BookStoreAdminDashboard\BookStoreDashboard\BookStoreDashboard\obj\Debug\netcoreapp3.1\BookStoreDashboard.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Sasho\Desktop\MVC\BookStoreAdminDashboard\BookStoreDashboard\BookStoreDashboard\obj\Debug\netcoreapp3.1\Razor\Views\Book\Overview.cshtml.g.cs
+C:\Users\Sasho\Desktop\MVC\BookStoreAdminDashboard\BookStoreDashboard\BookStoreDashboard\obj\Debug\netcoreapp3.1\Razor\Views\Book\ActionMessage.cshtml.g.cs
+C:\Users\Sasho\Desktop\MVC\BookStoreAdminDashboard\BookStoreDashboard\BookStoreDashboard\obj\Debug\netcoreapp3.1\Razor\Views\Book\Create.cshtml.g.cs
