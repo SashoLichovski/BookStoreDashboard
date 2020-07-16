@@ -33,8 +33,15 @@
                     <td>@book.Quantity</td>
                     <td style="text-align: center;">
                         <a class="btn btn-primary btn-sm" asp-action="Edit" asp-route-bookId="@book.Id">Edit</a> |
-                        <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-bookId="@book.Id" onclick="return Alert(`Are you sure you want to delete this book`)">Delete</a> |
-                        <button class="btn btn-info btn-sm" id="@book.Id" onclick="Toggle(event)">Details</button>
+                        @if (book.IsDeleted)
+                        {
+                            <a class="btn btn-success btn-sm" asp-action="UpdateIsDeleted" asp-route-bookId="@book.Id" asp-route-status="false" onclick="return confirm(`Are you sure you want to recover this book`)">Recover</a>
+                        }
+                        else
+                        {
+                            <a class="btn btn-danger btn-sm" asp-action="UpdateIsDeleted" asp-route-bookId="@book.Id" asp-route-status="true" onclick="return confirm(`Are you sure you want to delete this book`)">Delete</a>
+                        }
+                        | <button class="btn btn-info btn-sm" id="@book.Id" onclick="Toggle(event)">Details</button>
                     </td>
                 </tr>
 

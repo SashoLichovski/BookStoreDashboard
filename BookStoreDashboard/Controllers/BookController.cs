@@ -39,10 +39,14 @@ namespace BookStoreDashboard.Controllers
             return RedirectToAction("ActionMessage", new { Message = result });
         }
 
-        public IActionResult Delete(int bookId)
+        public IActionResult UpdateIsDeleted(int bookId, bool status)
         {
-            bookService.Delete(bookId);
-            return RedirectToAction("ActionMessage", new { Message = "Book successfully removed from user display" });
+            bookService.UpdateIsDeleted(bookId, status);
+            if (status)
+            {
+                return RedirectToAction("ActionMessage", new { Message = "Book successfully removed from user display" });
+            }
+            return RedirectToAction("ActionMessage", new { Message = "Book successfully recovered for user display" });
         }
 
         public IActionResult ActionMessage(ActionMessage actionMessage)

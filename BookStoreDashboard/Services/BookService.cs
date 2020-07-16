@@ -22,10 +22,10 @@ namespace BookStoreDashboard.Services
             bookRepo.Create(book);
         }
 
-        public async Task Delete(int bookId)
+        public async Task UpdateIsDeleted(int bookId, bool status)
         {
             var book = await bookRepo.GetById(bookId);
-            book.IsDeleted = true;
+            book.IsDeleted = status;
             await bookRepo.Update(book);
         }
 
@@ -43,5 +43,7 @@ namespace BookStoreDashboard.Services
         {
             return bookRepo.Update(book);
         }
+
+        
     }
 }

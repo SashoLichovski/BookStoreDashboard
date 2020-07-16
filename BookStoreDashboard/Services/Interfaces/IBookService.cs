@@ -15,7 +15,7 @@ namespace BookStoreDashboard.Services.Interfaces
         Task<List<BookDto>> GetAll();
         Task<BookDto> GetById(int bookId);
         Task<string> Update(BookDto book);
-        Task Delete(int bookId);
         void Create(BookDto book);
+        Task UpdateIsDeleted(int bookId, bool status);
     }
 }
