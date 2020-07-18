@@ -30,5 +30,12 @@ namespace BookStoreDashboard.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+
+
+        public IActionResult ActionMessage(ActionMessage actionMessage)
+        {
+            return View(actionMessage);
+        }
     }
 }

@@ -248,5 +248,6 @@ C:\Users\Sasho\Desktop\MVC\BookStoreAdminDashboard\BookStoreDashboard\BookStoreD
 C:\Users\Sasho\Desktop\MVC\BookStoreAdminDashboard\BookStoreDashboard\BookStoreDashboard\obj\Debug\netcoreapp3.1\BookStoreDashboard.csproj.CoreCompileInputs.cache
 C:\Users\Sasho\Desktop\MVC\BookStoreAdminDashboard\BookStoreDashboard\BookStoreDashboard\obj\Debug\netcoreapp3.1\BookStoreDashboard.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Sasho\Desktop\MVC\BookStoreAdminDashboard\BookStoreDashboard\BookStoreDashboard\obj\Debug\netcoreapp3.1\BookStoreDashboard.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Sasho\Desktop\MVC\BookStoreAdminDashboard\BookStoreDashboard\BookStoreDashboard\obj\Debug\netcoreapp3.1\Razor\Views\Book\ActionMessage.cshtml.g.cs
 C:\Users\Sasho\Desktop\MVC\BookStoreAdminDashboard\BookStoreDashboard\BookStoreDashboard\obj\Debug\netcoreapp3.1\Razor\Views\Book\Create.cshtml.g.cs
+C:\Users\Sasho\Desktop\MVC\BookStoreAdminDashboard\BookStoreDashboard\BookStoreDashboard\obj\Debug\netcoreapp3.1\Razor\Views\Order\Overview.cshtml.g.cs
+C:\Users\Sasho\Desktop\MVC\BookStoreAdminDashboard\BookStoreDashboard\BookStoreDashboard\obj\Debug\netcoreapp3.1\Razor\Views\Home\ActionMessage.cshtml.g.cs

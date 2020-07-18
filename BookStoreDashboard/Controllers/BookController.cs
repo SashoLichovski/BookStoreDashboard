@@ -36,7 +36,7 @@ namespace BookStoreDashboard.Controllers
         public async Task<IActionResult> Edit(BookDto book)
         {
             var result = await bookService.Update(book);
-            return RedirectToAction("ActionMessage", new { Message = result });
+            return RedirectToAction("ActionMessage", "Home", new { Message = result });
         }
 
         public IActionResult UpdateIsDeleted(int bookId, bool status)
@@ -44,14 +44,9 @@ namespace BookStoreDashboard.Controllers
             bookService.UpdateIsDeleted(bookId, status);
             if (status)
             {
-                return RedirectToAction("ActionMessage", new { Message = "Book successfully removed from user display" });
+                return RedirectToAction("ActionMessage", "Home", new { Message = "Book successfully removed from user display" });
             }
-            return RedirectToAction("ActionMessage", new { Message = "Book successfully recovered for user display" });
-        }
-
-        public IActionResult ActionMessage(ActionMessage actionMessage)
-        {
-            return View(actionMessage);
+            return RedirectToAction("ActionMessage", "Home", new { Message = "Book successfully recovered for user display" });
         }
 
         public IActionResult Create()
@@ -64,7 +59,7 @@ namespace BookStoreDashboard.Controllers
             if (ModelState.IsValid)
             {
                 bookService.Create(book);
-                return RedirectToAction("ActionMessage", new { Message = "Book successfully created" });
+                return RedirectToAction("ActionMessage", "Home", new { Message = "Book successfully created" });
             }
             return View(book);
         }
