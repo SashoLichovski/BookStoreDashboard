@@ -39,9 +39,9 @@ namespace BookStoreDashboard.Controllers
             return RedirectToAction("ActionMessage", "Home", new { Message = result });
         }
 
-        public IActionResult UpdateIsDeleted(int bookId, bool status)
+        public async Task<IActionResult> UpdateIsDeleted(int bookId, bool status)
         {
-            bookService.UpdateIsDeleted(bookId, status);
+            await bookService.UpdateIsDeleted(bookId, status);
             if (status)
             {
                 return RedirectToAction("ActionMessage", "Home", new { Message = "Book successfully removed from user display" });
